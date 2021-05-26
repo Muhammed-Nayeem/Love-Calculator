@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: black;
+  background: #ca3553;
+}
+.content-box {
+  background: #ca3553;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  box-shadow: 3px 3px 6px #a81e39, -3px -3px 6px #b92c48;
+  border-radius: 15px;
+}
+.container {
+  width: 85%;
+  margin: 20px auto;
+}
+.love-calculator {
+  padding: 10px 10px;
+}
+.love-calculator h1 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.input-fields {
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.input-fields input[type="text"] {
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0 10px;
+  outline: none;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: 600;
+}
+.input-fields input[type="submit"] {
+  margin: 20px 0;
+  padding: 15px 50px;
+  border: 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+  color: lightseagreen;
+  cursor: pointer;
+}
+.status-screens {
+  border: 1px dashed #e9e9e9;
+  padding: 10px;
+}
+.status-screens h2 {
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+.status-box {
+  background: whitesmoke;
+  padding: 15px 10px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 3px;
+}
+.status-box p {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  color: crimson;
+}
